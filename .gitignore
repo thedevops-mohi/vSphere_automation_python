@@ -1,3 +1,4 @@
 mon/
 .idea
 .gitignore
+.DS_Store
