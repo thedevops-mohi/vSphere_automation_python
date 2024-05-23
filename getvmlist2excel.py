@@ -6,7 +6,7 @@ import pandas as pd
 
 print('*'*100)
 fqdn_ip = input("Enter the IP or FQDN of Vcenter you wish to connect to: ")
-url = f"https://{fqdn_ip}/rest/vcenter/vm/"
+url = f"https://{fqdn_or_ip}/rest/vcenter/vm/"
 
 name_list = []
 memory_list = []
